@@ -52,12 +52,6 @@ export const PluginKeys = () => {
 
   return (
     <>
-      <SidebarButton
-        text={t('Plugin Keys')}
-        icon={<IconKey size={18} />}
-        onClick={() => setIsChanging(true)}
-      />
-
       {isChanging && (
         <div
           className="z-100 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
